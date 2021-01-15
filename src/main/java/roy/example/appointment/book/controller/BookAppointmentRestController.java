@@ -24,7 +24,7 @@ public class BookAppointmentRestController {
         return "User is authenticated";
     }
 
-    @GetMapping("/appintment/details")
+    @GetMapping("/appointment/details")
     public List<AppointmentDTO> getBookedAppointmentDetails(){
         return bookAppointmentService.getAllBookedSlotDetails();
     }
